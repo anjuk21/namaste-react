@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="./index.css">
+    <title>Namaste React</title>
+</head>
+<body>
+    <!-- 1) using html printing Hello World-->
+
+   <div id="root">
+    <!-- <h1>Hello World!</h1> -->
+   </div>
+
+   <!-- 2) using javascript printing Hello World from javascript-->
+
+    <!-- <script>
+        const heading= document.createElement("h1");
+        heading.innerHTML="Hello World from javascript";
+        const root= document.getElementById("root"); 
+        root.appendChild(heading);
+    </script> -->
+
+  <!-- 3) using react printing Hello World -->
+
+  <!-- i) first link in src is core file of react code that is written by facebook developer -->
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <!-- ii) second link in src is react lib useful for dom operation  -->
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <script src="./App.js">
+
+    // we are splitting react code into App.js  
+
+    // const heading = React.createElement("h1",{},"Hello World! from react");
+    // const root = ReactDOM.createRoot(document.getElementById("root"));
+    // root.render(heading);
+   </script>
+</body>
+</html>
+
